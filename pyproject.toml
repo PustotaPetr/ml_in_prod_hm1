@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ml_in_prod_hm1"
+version = "0.1.0"
+description = "Homework for course \"ML in production\""
+authors = ["Konstantin Osipov <kosipov@list.ru>"]
+
+[tool.poetry.dependencies]
+python = "3.10.5"
+pandas = "^1.4.3"
+sklearn = "^0.0"
+Sphinx = "^5.0.2"
+flake8 = "^4.0.1"
+click = "^8.1.3"
+coverage = "^6.4.2"
+python-dotenv = "^0.20.0"
+pip = "^22.1.2"
+pipenv = "^2022.7.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
